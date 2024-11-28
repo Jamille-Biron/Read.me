@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        .conhecimento{
+            background-color: rgb(201, 201, 59);
+            box-shadow:inset 2px 2px 2px rgba(0, 0, 0, 0.393);
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: grey;
+            padding: 3px;
+            box-shadow:1px 1px 5px rgba(0, 0, 0, 0.46) ;
+            
+        }
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            margin-right: 100px;
+
+        }
+        nav> a:hover{
+            text-decoration: underline;
+
+
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.393);
+            
+        }
+        article{
+            background-color: lightgray;
+            padding: 10px;
+        
+        }
+        article> aside{
+            background-color: aquamarine;
+
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="conhecimento">Meu site</h1>
+    <div></div>
+    <span></span>
+    <p class="conhecimento"> div é uma box level e span é in-line level</p>
+    <p class="conhecimento">Em um site temos o conteúdo chamado header, main,footer,são tags semanticas e utilizadas na divisao dos sites. Eles são como se fossem divs. A tag nav, serve para criar um menu/links. temos também a tag section,article, aside, </p>
+    <header>
+        <h1>Meu exemplo</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+
+        </section>
+        <article>
+            <h2>Noticias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aperiam eligendi qui, alias quo voluptate eveniet veniam? Corporis earum molestias assumenda. Numquam corporis rerum autem ipsum nisi a! Omnis, id?</p>
+            <aside> <p>Artigo desenvolvido por wbb</p></aside>
+
+        </article>
+    </main>
+    <footer>Desenvolvido por JSB</footer>
+    <div id="bola"></div>
+</body>
+</html>
